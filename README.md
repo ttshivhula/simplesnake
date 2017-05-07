@@ -1,7 +1,7 @@
 # SIMPLE SNAKE GAME
 
 <p align="center">
-<img src="https://raw.github.com/pboyfunclub/simplesnake/master/img/preview.jpg">
+<img src="https://raw.github.com/pboyfunclub/simplesnake/master/img/preview.gif">
 </p>
 
 ## About
