@@ -6,7 +6,7 @@
 /*   By: ttshivhu <ttshivhu@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2017/05/03 18:45:10 by ttshivhu          #+#    #+#             */
-/*   Updated: 2017/05/07 09:41:06 by ttshivhu         ###   ########.fr       */
+/*   Updated: 2017/05/07 15:25:53 by ttshivhu         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -190,22 +190,22 @@ void    display(void)
     system("clear");
     printf(" # - GAME MODE %d - #\n", mode);
     for (int i = 0; i < boadX; i++)
-        printf("#");
+        printf("# ");
     printf("\n");
     for (int j = 0; j < boadY - 2; j++)
     {
         for (int k = 0; k < boadX; k++)
         {
             if (k == 0)
-                printf("#");
+                printf("# ");
             else if (k == boadX - 1)
-                printf("#");
+                printf("# ");
             else if (k == playerX && j == playerY)
-                printf("@");
+                printf("@ ");
             else if (k == bossX && j == bossY)
-                printf("B");
+                printf("B ");
             else if (k == foodX && j == foodY)
-                printf("F");
+                printf("F ");
             else
                 {
                     int printed = 0;
@@ -213,18 +213,18 @@ void    display(void)
                     {
                         if (tailX[x] == k && tailY[x] == j)
                         {
-                            printf("o");
+                            printf("o ");
                             printed = 1;
                         }
                     }
                     if (printed == 0)
-                        printf(" ");
+                        printf("  ");
                 }
         }
         printf("\n");
     }
     for (int i = 0; i < boadX; i++)
-        printf("#");
+        printf("# ");
     printf("\n");
     if (dis < 0)
         dis = 0;
