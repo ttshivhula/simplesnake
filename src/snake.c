@@ -6,7 +6,7 @@
 /*   By: ttshivhu <ttshivhu@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2017/05/03 18:45:10 by ttshivhu          #+#    #+#             */
-/*   Updated: 2017/05/07 15:25:53 by ttshivhu         ###   ########.fr       */
+/*   Updated: 2017/05/07 15:31:59 by ttshivhu         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -199,7 +199,7 @@ void    display(void)
             if (k == 0)
                 printf("# ");
             else if (k == boadX - 1)
-                printf("# ");
+                printf("#");
             else if (k == playerX && j == playerY)
                 printf("@ ");
             else if (k == bossX && j == bossY)
@@ -231,7 +231,7 @@ void    display(void)
     printf("SCORE: %d LEVEL: %d\n", score, level);
     for (int i = 0; i < dis; i++)
     {
-        printf("+");
+        printf("+ ");
         if (i == dis - 1)
             printf("\n");
     }
