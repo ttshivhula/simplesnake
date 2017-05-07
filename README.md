@@ -1,5 +1,11 @@
 #SIMPLE SNAKE GAME
 
+<p align="center">
+<img src="https://raw.github.com/pboyfunclub/simplesnake/master/img/preview.jpg">
+</p>
+
+##About
+
 This is inspired by Snake game on small Nokia mobile phones.
 I built this just for fun and contributions are more than welcome.
 
