@@ -1,26 +1,30 @@
-#SIMPLE SNAKE GAME
+# SIMPLE SNAKE GAME
 
 <p align="center">
 <img src="https://raw.github.com/pboyfunclub/simplesnake/master/img/preview.jpg">
 </p>
 
-##About
+## About
 
 This is inspired by Snake game on small Nokia mobile phones.
 I built this just for fun and contributions are more than welcome.
 
-##Compatibility
+## Compatibility
 
 Currently this game is only compatible with Unix and all Unix-like systems
 
-##How to ?
+## How to ?
 
-###Compile and Run
+### Compile and Run
 
+```
 make 
 
+```
+```
 ./snake
+```
 
-##Report bugs
+## Report bugs
 
 This game is more likely to contain bugs, to help fix bugs contribute or email me at pboyfunclub@yandex.com
